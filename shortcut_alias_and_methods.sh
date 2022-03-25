@@ -36,3 +36,5 @@ alias hb='git branch || hg branch' #it will show list of branches irrespective r
 
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" #tree command for mac
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app' ## open apple's iOS simulator
+
+alias pp="python -m json.tool" ##Json pretty using python. json.tool module included in python by default. No need to install it again.
