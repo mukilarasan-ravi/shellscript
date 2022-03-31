@@ -38,3 +38,4 @@ alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" #tree comman
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app' ## open apple's iOS simulator
 
 alias pp="python -m json.tool" ##Json pretty using python. json.tool module included in python by default. No need to install it again.
+alias r="tput reset" ## in some linux machine, clear command wouldn't clear the full screen, so we have to tput instead of clear.
